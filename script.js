@@ -32,6 +32,13 @@
 // kommer att returnera “hello fed20s”
 
 
+function replaceWord(sentence, toReplace, replaceWith) {
+    return sentence.replace(toReplace, replaceWith);
+}
+
+console.log(replaceWord("Vilket är ordet som ska bytas ut?", "ska bytas", "byttes"));
+console.log(replaceWord("hello world", "world", "fed20s"));
+
 
 
 
